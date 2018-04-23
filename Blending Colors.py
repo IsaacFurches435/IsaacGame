@@ -7,8 +7,8 @@ pygame.init()
 
 screen = pygame.display.set_mode((640, 480), 0, 32)
 
-color1 = (13, 153, 50)
-color2 = (212, 196, 4)
+color1 = (255, 51, 153)
+color2 = (70, 255, 225)
 factor = 0
 
 
