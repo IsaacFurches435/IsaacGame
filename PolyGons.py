@@ -21,7 +21,7 @@ while True:
     screen.fill((255,255,255))
 
     if len(points) >= 3:
-        pygame.draw.polygon(screen, (0,255,0), points)
+        pygame.draw.polygon(screen, (0,255,0), points, 1)
     for point in points:
         pygame.draw.circle(screen, (0,0,255), point, 5)
 
